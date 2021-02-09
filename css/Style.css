@@ -1,0 +1,74 @@
+@media (max-width: 1000px) {
+    .containerSpaceX {
+        max-width: 970px;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .containerSpaceX {
+        max-width: 750px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .containerSpaceX {
+        max-width: none;
+    }
+}
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+.containerSpaceX {
+    background-color: black;
+}
+
+.HeadItems {
+    text-align: center;
+    font-weight: bold;
+    color: #423a25;
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+.text-items {
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
+    font-size: 1em;
+}
+
+.btnBig {
+    background-color: #18c1a4 !important; /* Green */
+    border: none !important;
+    color: #91faec !important;;
+    padding: 15px 32px !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    font-size: 10px !important;
+    width: 200px !important;
+    height: 50px !important;
+    margin: 30px !important;
+
+}
+
+.black-btn {
+    background-color: #ebc884 !important;
+    color: #6b511e !important;
+    border: none !important;
+}
+
+.btn-black:hover {
+    color: #FFF;
+}
+
+.hr {
+    align-content: center !important;
+    width: 5% !important;
+}
